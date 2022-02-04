@@ -11,11 +11,33 @@
     font: 62.5%;
 }
 
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
 .button{
     padding: 0.5rem 0.5rem;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+/* Normal Buttons */
 .btn-primary{
     background-color: var(--color-primary);
     color: var(--font-white);
@@ -28,7 +50,7 @@
     border: none;
 }
 
-
+/* Link buttons */
 .btn-link{
     background-color: var(--color-primary);
     color: var(--font-white);
@@ -36,11 +58,12 @@
 }
 
 .btn-link-icon{
-    background-color: var(--color-primary);
+       
     color: var(--font-white);
     text-decoration: none;
 }
 
+/* floating buttons */
 .floating-btn-div{
    background-color: wheat;
     width: 15rem;
@@ -52,13 +75,26 @@
 
 
 .button-float{
-    position: absolute;
-    margin: 1rem;
     background-color: var(--color-primary);
     color: var(--font-white);
-    border: none;
+    border-radius: 50%;
+    border:none;
     width: 2rem;
     height: 2rem;
-    border-radius:2rem ;
+   
 }
 
+
+/* outline buttons */
+
+.btn-primary-outline{
+    border: solid var(--color-primary);
+    color: var(--color-primary);
+    background-color: var(--font-white);
+}
+
+.btn-secondary-outline{
+    border: solid var(--color-secondary);
+    color: var(--color-secondary);
+    background-color: var(--font-white);
+}
