@@ -5,8 +5,10 @@
     box-sizing: border-box;
 }
 
-body{
-  
+:root{
+    --backgrpund-color  : #686672;
+    --color-red : red;
+    --color-font-white : white;
 }
 
 .main{
@@ -15,7 +17,7 @@ body{
     gap : 2rem;
     justify-content: center;
     align-items: center;
-    background-color: #686672;
+    background-color: var(--backgrpund-color);
 }
 
 
@@ -66,6 +68,7 @@ h1{
 
 .title{
     margin-left: 1rem;
+    padding : 1rem;
 }
 
 
@@ -116,6 +119,10 @@ h1{
     border-top-right-radius : 5px;
 }
 
+.basic-card-title{
+    padding: 1rem;
+}
+
 /* only icon basic card */
 .icon-card-reaction-btn-div{
     display: flex;
@@ -132,15 +139,61 @@ h1{
 
 .detail{
     order: -1;
+    padding: 1rem;
 }
+
 
 /* text overlay card */
 .overlap-card-title{
-   margin-top: -5rem;
+   margin-top: -6rem;
    margin-bottom: 2rem;
    color: white;
+   padding: 1rem;
+   padding-bottom: 0;
 }
 
 button{
     cursor : pointer;
+}
+
+/* card with dismiss */
+
+.dismiss-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.dismiss-card-container .basic-card{
+    margin-top: -2.5rem;
+}
+
+.btn-dismiss{
+    position: relative;
+    z-index: 1;
+    background-color: var(--color-red);
+    border: none;
+    border-top-right-radius: 5px;
+}
+
+/* card with badge */
+.badge-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.badge-card-container .basic-card{
+    margin-top: -3.5rem;
+}
+.badge{
+    position: relative;
+    z-index: 1;
+    font-size: 1.5rem;
+    background-color: var(--color-red);
+    color: var(--color-font-white);
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-right:0.5rem ;
 }
