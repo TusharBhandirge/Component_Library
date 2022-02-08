@@ -1,0 +1,61 @@
+:root {
+    --color-secondary: #E75A0D;
+    --color-primary: #17183B;
+    --font-white : white;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.avatar-square{
+    vertical-align: middle;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 5px;
+}
+
+.avatar-round{
+    vertical-align: middle;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.avatar-tiny{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.avatar-small{
+    width: 7rem;
+    height: 7rem;
+}
+
+.avatar-medium{
+    width: 10rem;
+    height: 10rem;
+}
+
+
+.avatar-large{
+    width: 15rem;
+    height: 15rem;
+}
+
+.a-border{
+    border: solid 4px var(--color-secondary);
+}
