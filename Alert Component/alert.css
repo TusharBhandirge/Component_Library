@@ -1,0 +1,49 @@
+
+:root{
+    --info-alert-background : rgb(207, 231, 238);
+    --info-alert-border : rgb(158, 222, 241);
+    --error-alert-background : rgb(229, 188, 188);
+    --erorr-alert-border : rgb(219, 148, 151);
+    --success-alert-background : rgb(177, 243, 186);
+    --success-alert-border : rgb(134, 236, 156);
+    --warning-alert-background : rgb(230, 231, 158);
+    --warning-alert-border : rgb(223, 240, 71);
+}
+
+.main{
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.alert{
+    min-width: 20rem;
+    border-radius: 0.5rem;
+    border: solid 2px;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.alert-info{
+    background-color: var(--info-alert-background);
+    border:solid var(--info-alert-border);
+}
+
+.alert-error{
+    background-color: var(--error-alert-background);
+    border:solid var(--erorr-alert-border);   
+}
+
+.alert-success{
+    background-color: var(--success-alert-background);
+    border:solid var(--success-alert-border);   
+}
+
+
+.alert-warning{
+    background-color: var(--warning-alert-background);
+    border:solid var(--warning-alert-border);   
+}
