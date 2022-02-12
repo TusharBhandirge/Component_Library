@@ -1,0 +1,22 @@
+iframe{
+    min-width: 60rem;
+    min-height: 39rem;
+}
+
+article{
+    flex-grow: 1;
+    font-size: 1.5rem;
+}
+
+.avatar-heading{
+    font-size: 2rem;
+}
+
+.alert-div{
+    margin: 1rem;
+    min-width: 50rem;
+}
+
+.container{
+    align-self: center;
+}
