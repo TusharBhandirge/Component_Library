@@ -1,0 +1,448 @@
+.html{
+    font-size: 62.5%;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+:root{
+    --background-color  : white;
+    --color-red : red;
+    box-sizing: border-box;
+    --color-secondary: #E75A0D;
+    --color-primary: #17183B;
+    --font-white : white;
+    --info-alert-background : rgb(207, 231, 238);
+    --info-alert-border : rgb(158, 222, 241);
+    --error-alert-background : rgb(229, 188, 188);
+    --erorr-alert-border : rgb(219, 148, 151);
+    --success-alert-background : rgb(177, 243, 186);
+    --success-alert-border : rgb(134, 236, 156);
+    --warning-alert-background : rgb(230, 231, 158);
+    --warning-alert-border : rgb(223, 240, 71);
+    --color-green : green;
+    --color-red : red;
+    --color-orange  :orange;
+    --background-color : white;
+}
+
+/* Card coponent css */
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card{
+
+    background-color: white;
+    border: none;
+    margin-left:0 ;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+
+
+.content{
+    display: flex;
+    margin-right:1rem ;
+    flex-wrap: wrap;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+
+}
+
+.image{
+    border-top-right-radius: 1rem;
+
+}
+
+.title{
+    margin-left: 1rem;
+    padding : 1rem;
+    font-size: 1.5rem;
+}
+
+
+.action-btn-div{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.reaction-btn-div{
+    display : flex;
+    gap: 0.5rem;
+    margin-right:0.5rem;
+}
+
+.reaction-btn-div .reaction-btn{
+    border: none;
+    background-color: #f2f2f2;
+    
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
+
+/* Basic card */
+
+.basic-card{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: fit-content;
+    max-width: 35rem;
+}
+
+.basic-card-content{
+    border-radius: 0.5rem;
+}
+
+.basic-card-image{
+    max-width: 100%;
+    max-height: auto;
+    object-fit: contain;
+    border-top-left-radius : 5px;
+    border-top-right-radius : 5px;
+}
+
+.basic-card-title{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/* only icon basic card */
+.icon-card-reaction-btn-div{
+    display: flex;
+    justify-content: end;
+}
+
+/*title card*/
+
+.title-card-content{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.detail{
+    order: -1;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/* text overlay card */
+.overlap-card-title{
+   margin-top: -6rem;
+   margin-bottom: 2rem;
+   color: white;
+   padding: 1rem;
+   padding-bottom: 0;
+   font-size: 1.5rem;
+}
+
+button{
+    cursor : pointer;
+}
+
+/* card with dismiss */
+
+.dismiss-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dismiss-card-container .basic-card{
+    margin-top: -2.7rem;
+}
+
+.btn-dismiss{
+    position: relative;
+    z-index: 1;
+    background-color: var(--color-red);
+    border: none;
+    border-top-right-radius: 5px;
+}
+
+/* card with badge */
+.badge-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.badge-card-container .basic-card{
+    margin-top: -3.5rem;
+}
+.badge{
+    position: relative;
+    z-index: 1;
+    font-size: 1.5rem;
+    background-color: var(--color-red);
+    color: var(--font-white);
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-right:0.5rem ;
+}
+/* cardComponent CSS end */
+
+/* button Component css */
+.button{
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Normal Buttons */
+.btn-primary{
+    background-color: var(--color-primary);
+    color: var(--font-white);
+    border: none;
+}
+
+.btn-secondary{
+    background-color: var(--color-secondary);
+    color: var(--font-white);
+    border: none;
+}
+
+/* Link buttons */
+.btn-link{
+    background-color: var(--color-primary);
+    color: var(--font-white);
+    text-decoration: none;
+}
+
+.btn-link-icon{
+       
+    color: var(--font-white);
+    text-decoration: none;
+}
+
+/* floating buttons */
+.floating-btn-div{
+   background-color: wheat;
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+
+.button-float{
+    background-color: var(--color-primary);
+    color: var(--font-white);
+    border-radius: 50%;
+    border:none;
+    width: 2rem;
+    height: 2rem;
+   
+}
+
+
+/* outline buttons */
+
+.btn-primary-outline{
+    border: solid var(--color-primary);
+    color: var(--color-primary);
+    background-color: var(--font-white);
+}
+
+.btn-secondary-outline{
+    border: solid var(--color-secondary);
+    color: var(--color-secondary);
+    background-color: var(--font-white);
+}
+
+/* button Component css end*/
+
+/* Alert Component css */
+.alert{
+    min-width: 20rem;
+    border-radius: 0.5rem;
+    border: solid 2px;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.alert-info{
+    background-color: var(--info-alert-background);
+    border:solid var(--info-alert-border);
+}
+
+.alert-error{
+    background-color: var(--error-alert-background);
+    border:solid var(--erorr-alert-border);   
+}
+
+.alert-success{
+    background-color: var(--success-alert-background);
+    border:solid var(--success-alert-border);   
+}
+
+
+.alert-warning{
+    background-color: var(--warning-alert-background);
+    border:solid var(--warning-alert-border);   
+}
+/* Alert Component css end */
+
+.avatar-badge{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.badge-avatar{
+    background-color: var(--color-green);
+    border: solid 1px var(--background-color);
+    position: fixed;
+    padding: 1rem;
+    border-radius: 50%;
+    align-self: flex-end;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    z-index: 1;
+}
+
+.badge{
+    background-color: var(--color-red);
+    border: solid 1px var(--background-color);
+    position: fixed;
+    padding: 0.3rem 0.5rem;
+    border-radius: 50%;
+    margin-right: -1rem;
+    margin-top: -1rem;
+    color: var(--background-color);
+    z-index: 1;
+    display: flex;
+}
+
+.button-badge{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.online{
+    background-color: var(--color-green);
+}
+
+.away{
+    background-color: var(--color-orange);
+}
+
+.busy{
+    background-color: var(--color-red);
+}
+/* Badge component css end*/
+
+/* Avatar component css */
+.avatar-square{
+    vertical-align: middle;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 5px;
+}
+
+.avatar-round{
+    vertical-align: middle;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.avatar-tiny{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.avatar-small{
+    width: 7rem;
+    height: 7rem;
+}
+
+.avatar-medium{
+    width: 10rem;
+    height: 10rem;
+}
+
+
+.avatar-large{
+    width: 15rem;
+    height: 15rem;
+}
+
+.a-border{
+    border: solid 4px var(--color-secondary);
+}
+/* Avatar component css end*/
+
+/* Image component css */
+.rounded-img{
+    border-radius: 50%;
+}
+/* Image component css end*/
+
+/* Header and footer*/
+header, footer{
+    font-size: 1.5rem;
+    height: 10rem;
+    background-color: var(--color-primary);
+}
+
+header{
+    color: white;
+    padding: 1rem;
+    display: flex;
+}
+
+.header-brand{
+    color: white;
+    font-weight: bold;
+    flex-grow: 1;
+    align-self: center;
+}
+
+.header-action{
+    padding:1rem;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+
+}
+/* Header and footer end */
