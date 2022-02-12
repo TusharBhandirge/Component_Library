@@ -1,5 +1,10 @@
-.html{
+html{
     font-size: 62.5%;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+body{
     padding: 0rem;
     margin: 0rem;
 }
@@ -252,8 +257,7 @@ button{
     color: var(--font-white);
     border-radius: 50%;
     border:none;
-    width: 2rem;
-    height: 2rem;
+    padding: 0.5rem;
    
 }
 
@@ -433,16 +437,29 @@ header{
     background-color: var(--primary-color);
     color: white;
     text-align: center;
-    border-bottom-right-radius: 0.5rem;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 1rem;
 }
 
 .footer-links{
     display: flex;
     justify-content: center;
-
+    align-items: start;
 }
 /* Header and footer end */
+
+.codeAndexample{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2rem;
+}
+
+.code-snippet{
+    flex-grow: 1;
+}
+
+footer{
+    height: 100%;
+}
