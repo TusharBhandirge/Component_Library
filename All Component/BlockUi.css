@@ -241,6 +241,10 @@ button{
     text-decoration: none;
 }
 
+.btn-link :hover{
+    background-color: var(--color-secondary);
+}
+
 /* floating buttons */
 .floating-btn-div{
    background-color: wheat;
