@@ -1,0 +1,25 @@
+
+
+
+.article{
+    padding: 1rem;
+}
+
+.code-frame{
+    min-width: 70rem;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    font-size: 2rem;
+}
+
+.input-continer{
+    align-self: center;
+    min-width: 50rem;
+}

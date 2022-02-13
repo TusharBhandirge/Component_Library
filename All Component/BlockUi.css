@@ -458,13 +458,14 @@ header{
 
 .codeAndexample{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .code-snippet{
     flex-grow: 1;
+    min-width: 60rem;
 }
 
 .article{

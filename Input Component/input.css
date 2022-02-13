@@ -1,0 +1,27 @@
+
+
+
+
+.input-label{
+    padding: 1rem;
+}
+
+.input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.text-area-input{
+    border-radius: 1rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    justify-content: center;
+    min-height: 20rem;
+}
