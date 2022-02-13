@@ -54,6 +54,8 @@ body{
     display: flex;
     margin-right:1rem ;
     flex-wrap: wrap;
+    flex-grow: 1;
+    
 }
 
 .action{
@@ -468,8 +470,8 @@ header{
     flex-grow: 1;
 }
 
-footer{
-    height: 100%;
+.article{
+    flex-grow: 1;
 }
 
 /* Nav style */
@@ -510,3 +512,9 @@ nav,aside{
 }
 
 /* Nav Style end */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
