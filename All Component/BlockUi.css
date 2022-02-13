@@ -28,6 +28,7 @@ body{
     --color-red : red;
     --color-orange  :orange;
     --background-color : white;
+    --reaction-btn-bg-color : #f2f2f2;
 }
 
 /* Card coponent css */
@@ -88,7 +89,7 @@ body{
 
 .reaction-btn-div .reaction-btn{
     border: none;
-    background-color: #f2f2f2;
+    background-color: var(--reaction-btn-bg-color);
     
 }
 

@@ -11,12 +11,12 @@ iframe{
     min-height: 39rem;
 }
 
-article{
+.article{
     flex-grow: 1;
     font-size: 1.5rem;
 }
 
-article > h1{
+.article > h1{
     font-size: 2rem;
 }
 

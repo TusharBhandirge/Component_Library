@@ -31,7 +31,7 @@ nav,aside{
     display: flex;
 }
 
-article{
+.article{
     flex-grow: 1;
 }
 
