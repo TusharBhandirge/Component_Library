@@ -52,10 +52,8 @@ body{
 
 .content{
     display: flex;
-    margin-right:1rem ;
     flex-wrap: wrap;
     flex-grow: 1;
-    
 }
 
 .action{
@@ -443,7 +441,6 @@ header{
 }
 
 .footer {
-    padding: 1rem;
     background-color: var(--primary-color);
     color: white;
     text-align: center;
