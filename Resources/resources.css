@@ -1,0 +1,26 @@
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.content{
+    align-self: center;
+    width: 60vw;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+}
+
+.libary-link{
+    width: 100%;
+}

@@ -4,28 +4,6 @@
     --font-white : white;
   }
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font: 62.5%;
-}
-
-.Container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-}
-
-.section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
 
 
 .button{
@@ -74,14 +52,12 @@
 }
 
 
-.button-float{
+.button > .button-float{
     background-color: var(--color-primary);
     color: var(--font-white);
     border-radius: 50%;
     border:none;
-    width: 2rem;
-    height: 2rem;
-   
+    padding: 1.5rem;
 }
 
 
@@ -97,4 +73,8 @@
     border: solid var(--color-secondary);
     color: var(--color-secondary);
     background-color: var(--font-white);
+}
+
+.footer{
+    background-color: var(--color-primary);
 }

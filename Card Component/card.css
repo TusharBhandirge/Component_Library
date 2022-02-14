@@ -1,0 +1,207 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color  : white;
+    --color-red : red;
+    --color-font-white : white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap : 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card{
+
+    background-color: white;
+    border: none;
+    margin-left:0 ;
+    border-radius: 5px;
+    height: fit-content;
+    /* font-size: 5rem; */
+}
+
+h2{
+    /* font-size: 2rem; */
+}
+
+h1{
+    /* font-size: 3rem; */
+}
+
+
+
+.content{
+    display: flex;
+    margin-right:1rem ;
+    flex-wrap: wrap;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #f2f2f2; */
+    padding: 1rem 0rem;
+
+}
+
+.image{
+    border-top-right-radius: 1rem;
+
+}
+
+.title{
+    margin-left: 1rem;
+    padding : 1rem;
+    font-size: 1.5rem;
+}
+
+
+.action-btn-div{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.reaction-btn-div{
+    display : flex;
+    gap: 0.5rem;
+    margin-right:0.5rem;
+}
+
+.reaction-btn-div .reaction-btn{
+    border: none;
+    background-color: #f2f2f2;
+    
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
+
+/* Basic card */
+
+.basic-card{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: fit-content;
+    /* font-size: 5rem; */
+    max-width: 35rem;
+}
+
+.basic-card-content{
+    /* border-radius: 1rem; */
+    border-radius: 0.5rem;
+}
+
+.basic-card-image{
+    max-width: 100%;
+    max-height: auto;
+    object-fit: contain;
+    border-top-left-radius : 5px;
+    border-top-right-radius : 5px;
+}
+
+.basic-card-title{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/* only icon basic card */
+.icon-card-reaction-btn-div{
+    display: flex;
+    justify-content: end;
+}
+
+/*title card*/
+
+.title-card-content{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.detail{
+    order: -1;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/* text overlay card */
+.overlap-card-title{
+   margin-top: -6rem;
+   margin-bottom: 2rem;
+   color: white;
+   padding: 1rem;
+   padding-bottom: 0;
+   font-size: 1.5rem;
+}
+
+button{
+    cursor : pointer;
+}
+
+/* card with dismiss */
+
+.dismiss-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dismiss-card-container .basic-card{
+    margin-top: -2.7rem;
+}
+
+.btn-dismiss{
+    position: relative;
+    z-index: 1;
+    background-color: var(--color-red);
+    border: none;
+    border-top-right-radius: 5px;
+}
+
+/* card with badge */
+.badge-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.badge-card-container .basic-card{
+    margin-top: -3.5rem;
+}
+.badge{
+    position: relative;
+    z-index: 1;
+    font-size: 1.5rem;
+    background-color: var(--color-red);
+    color: var(--color-font-white);
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-right:0.5rem ;
+}

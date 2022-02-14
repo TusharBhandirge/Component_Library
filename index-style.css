@@ -1,0 +1,47 @@
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+ .content{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+} 
+
+.section{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.btn-section{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    padding: 0.5rem 2rem;
+}
+
+
+
+.hero{
+    align-self: center;
+  
+}
+
+.hero-img{
+    height: 50rem;
+    width: 50rem;
+}

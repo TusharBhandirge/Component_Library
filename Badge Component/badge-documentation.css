@@ -1,0 +1,41 @@
+.badge-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+iframe{
+    min-width: 60rem;
+    min-height: 39rem;
+}
+
+.article{
+    flex-grow: 1;
+    font-size: 1.5rem;
+}
+
+.article > h1{
+    font-size: 2rem;
+}
+
+.alert-div{
+    margin: 1rem;
+    min-width: 50rem;
+}
+
+.container{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 50rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.badge-heading{
+    align-self: flex-start;
+    margin: 1rem;
+}
